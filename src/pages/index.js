@@ -16,8 +16,6 @@ export default function Home() {
         </div>
         <img src='/photo.png' alt='my' style={{ maxWidth: '100%' }}/>
       </section>
-      <h1 class="animate__animated animate__bounce">An animated element</h1>
-      <div className='job-types' data-aos="flip-left" data-aos-delay="100" data-aos-anchor=".example-selector"></div>
       <div className='job-types'></div>
       <div style={{height: '1000px', background: 'blue'}}></div>
     </Layout>

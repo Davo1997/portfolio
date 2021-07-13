@@ -42,7 +42,6 @@ nav a {
   margin-left: 20px;
   font-weight: 400;
   padding-bottom: 8px;
-  border-bottom: 3px solid transparent;
 }
 
 nav a:hover {
@@ -59,8 +58,6 @@ footer p {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  border-color: unset !important;
-  border: unset !important;
   font-size: 30px;
   font-weight: 500;
 }
@@ -84,10 +81,4 @@ footer p {
   position: relative;
   animation: backInLeft;
   animation-duration: 4s;
-  /* animation-name: right-to-left;
-}
-
-@keyframes right-to-left {
-  0%   { right:0px; top:0px; }
-  100% { right:1000px; top:0px; } */
 }
