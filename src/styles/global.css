@@ -22,11 +22,11 @@ p {
 /* Layout and navigation */
 
 .layout {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
 nav {
+  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 40px auto;
@@ -34,7 +34,7 @@ nav {
 
 nav .links {
   display: inline-block;
-  text-align: end;
+  text-align: -webkit-right;
 }
 
 nav a {
@@ -42,10 +42,6 @@ nav a {
   margin-left: 20px;
   font-weight: 400;
   padding-bottom: 8px;
-}
-
-nav a:hover {
-  border-color: white;
 }
 
 footer p {
@@ -60,9 +56,11 @@ footer p {
   cursor: pointer;
   font-size: 30px;
   font-weight: 500;
+  width: 260px;
+  margin-left: 0 !important;
 }
 
-.main::after {
+.main::after, nav a::after {
   content: '';
   display: block;
   width: 0;
@@ -72,6 +70,10 @@ footer p {
 }
 
 .main:hover::after {
+  width: 260px;
+}
+
+nav a:hover::after {
   width: 100%;
 }
 
@@ -81,4 +83,11 @@ footer p {
   position: relative;
   animation: backInLeft;
   animation-duration: 4s;
+}
+
+.footer {
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  display: flex;
 }
