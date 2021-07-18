@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+@media screen and (min-width: 992px) {
+  .main {
+    display: block;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 800px;
+    padding-bottom: 50px;
+  }
+  
+  .main p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .singleSkill {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .singleSkillContent {
+    margin: auto 0;
+  }
+  
+  .singleSkillImg {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .wrapper {
+    display: flex;
+    width: 60%;
+    margin: 5rem auto;
+  }
+  
+  .additionalSkill {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 991px) {
+  .main {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .main p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .singleSkill {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .singleSkillContent {
+    margin: auto 0;
+  }
+  
+  .singleSkillImg {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: 5rem auto;
+  }
+  
+  .additionalSkill {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .main {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .main p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .singleSkill {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .singleSkillContent {
+    margin: auto 0;
+  }
+  
+  .singleSkillImg {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: 5rem auto;
+  }
+  
+  .additionalSkill {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+  }
+}

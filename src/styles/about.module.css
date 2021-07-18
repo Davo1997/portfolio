@@ -1,0 +1,231 @@
+@media screen and (min-width: 992px) {
+  .wrapper {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto 10% auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .wrapper h3 {
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+  }
+  
+  .experience {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .line {
+    margin: 0 auto;
+    width: 10px;
+    height: 150px;
+    background: white;
+    border: 3px solid black;
+  }
+
+  .container {
+    margin-bottom: 5%;
+  }
+  
+  .experienceRow {
+    display: flex;
+  }
+  
+  .leftCol {
+    width: 44%;
+    text-align: right;
+    align-items: center;
+    display: grid;
+  }
+  
+  .middleCol {
+    width: 12%;
+  }
+  
+  .rightCol {
+    width: 44%;
+    text-align: left;
+    align-items: center;
+    display: grid;
+  }
+  
+  .experienceTitle {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .wrapper {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto 10% auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .wrapper h3 {
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+  }
+  
+  .experience {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .container {
+    margin-bottom: 5%;
+  }
+  
+  .experienceRow {
+    display: flex;
+  }
+  
+  .leftCol {
+    width: 100%;
+    text-align: right;
+    align-items: center;
+    display: grid;
+  }
+  
+  .middleCol {
+    width: 100%;
+  }
+  
+  .rightCol {
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    display: grid;
+  }
+  
+  .experienceTitle {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .line {
+    margin: 0 auto;
+    width: 10px;
+    height: 150px;
+    background: white;
+    border: 3px solid black;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 415px) {
+  .wrapper {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto 10% auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .wrapper h3 {
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+  }
+  
+  .experience {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .container {
+    margin-bottom: 5%;
+  }
+  
+  .experienceRow {
+    display: flex;
+  }
+  
+  .leftCol {
+    width: 100%;
+    text-align: right;
+    align-items: center;
+    display: grid;
+  }
+  
+  .middleCol {
+    width: 100%;
+  }
+  
+  .rightCol {
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    display: grid;
+  }
+  
+  .experienceTitle {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .line {
+    margin: 0 auto;
+    width: 10px;
+    height: 150px;
+    background: white;
+    border: 3px solid black;
+  }
+}
+

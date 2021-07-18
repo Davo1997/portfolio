@@ -10,6 +10,7 @@ export default function Navbar() {
       <div className='links'>
         <Link to='/'>Home</Link>
         <Link to='/about'>About</Link>
+        <Link to='/skillset'>Skillset</Link>
         <Link to='/projects'>Portfolio & projects</Link>
       </div>
     </nav>
