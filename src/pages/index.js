@@ -98,7 +98,6 @@ export default function Home() {
                 <div className={styles.jobSpaDiv}>
                   <h3 className={styles.jobSpaTitle}>Responsive Web Apps</h3>
                   <p className={styles.jobSpaparagraph}>Desktop/Mobile/Tablet responsive Web Applications</p>
-                  {/* <p className={styles.jobSpaparagraph}>(using technologies/libraries such as Gatsby, Next JS, Express JS, EJS, Mustache, etc.)</p> */}
                 </div>
               </div>
             </div>
