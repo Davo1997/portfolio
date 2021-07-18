@@ -1,4 +1,8 @@
 @media screen and (min-width: 1265px) {
+  .navIcon {
+    display: none;
+  }
+
   nav {
     max-width: 1200px;
     height: 50px;
@@ -36,6 +40,10 @@
 }
 
 @media screen and (max-width: 1264px) and (min-width: 768px) {
+  .navIcon {
+    display: none;
+  }
+
   nav {
     max-width: 1200px;
     height: 50px;
@@ -71,5 +79,49 @@
   
   .main:hover, nav a:hover {
     border-bottom: 2px solid white;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .mainNav {
+    display: none;
+  }
+
+  .navIcon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 20px 20px 20px auto;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: rgb(125, 125, 125, 35%);
+    animation-name: navbar-animation;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    padding: 15px 0;
+  }
+
+  .mobileLinks {
+    text-align: center;
+  }
+  
+  a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-bottom: 8px;
+  }
+
+  @keyframes navbar-animation {
+    0%   { opacity: 0; top:-100px; }
+    100%  { top:0px; }
   }
 }
