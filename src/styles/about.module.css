@@ -73,6 +73,10 @@
     text-align: center;
     margin-bottom: 5%;
   }
+
+  .contentHs {
+    margin: 0 5vw;
+  } 
 }
 
 @media screen and (max-width: 414px) {
@@ -150,6 +154,10 @@
     background: white;
     border: 3px solid black;
   }
+
+  .contentHs {
+    margin: 0 5vw;
+  } 
 }
 
 @media screen and (max-width: 991px) and (min-width: 415px) {
@@ -226,6 +234,14 @@
     height: 150px;
     background: white;
     border: 3px solid black;
+  }
+
+  .mainTitle {
+    margin: 0 5vw 5vh 5vw;
+  }
+
+  .contentHs {
+    margin: 0 5vw;
   }
 }
 
