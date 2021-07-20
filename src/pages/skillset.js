@@ -57,6 +57,14 @@ export default function skillset() {
             <img src='/linux.png' alt='my' className={styles.singleSkillImg} />
             <span className={styles.singleSkillContent}>Linux, experience - 3 years</span>
           </div>
+          <div className={styles.singleSkill}>
+            <img src='/twilio.png' alt='my' className={styles.singleSkillImg} />
+            <span className={styles.singleSkillContent}>Twilio, experience - 1 year</span>
+          </div>
+          <div className={styles.singleSkill}>
+            <img src='/stripe.png' alt='my' className={styles.singleSkillImg} />
+            <span className={styles.singleSkillContent}>Stripe payment system, experience - 0.5 year</span>
+          </div>
         </div>
         <div className={styles.main}>
           <div className={styles.singleSkill}>
@@ -93,7 +101,7 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/mongo.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>MongoDB, experience - 2 year</span>
+            <span className={styles.singleSkillContent}>MongoDB, experience - 2 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/mysql.png' alt='my' className={styles.singleSkillImg} />
@@ -101,7 +109,19 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/babel.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Babel transpiler, experience - 3 year</span>
+            <span className={styles.singleSkillContent}>Babel transpiler, experience - 3 years</span>
+          </div>
+          <div className={styles.singleSkill}>
+            <img src='/graphql.png' alt='my' className={styles.singleSkillImg} />
+            <span className={styles.singleSkillContent}>GraphQL, experience - 1 year</span>
+          </div>
+          <div className={styles.singleSkill}>
+            <img src='/apollo.svg' alt='my' className={styles.singleSkillImg} />
+            <span className={styles.singleSkillContent}>Apollo, experience - 1 year</span>
+          </div>
+          <div className={styles.singleSkill}>
+            <img src='/keystone.png' alt='my' className={styles.singleSkillImg} />
+            <span className={styles.singleSkillContent}>Keystone JS, experience - 2 years</span>
           </div>
         </div>
       </div>

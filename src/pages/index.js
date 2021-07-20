@@ -9,17 +9,6 @@ import * as styles from '../styles/home.module.css'
 import { Row, Col } from 'react-bootstrap'
 
 export default function Home() {
-  const animatedStyles = {
-    'position': 'absolute',
-    'transform': 'translate(-50%,-50%)',
-    'width': '400px',
-    'height': '400px',
-    'border-radius': '265px',
-    'box-shadow': 'black 0px 0px 44px 1px',
-    'display': 'flex',
-    'justify-content': 'center',
-    'align-items': 'center',
-  };
   return (
     <Layout>
       <section className={styles.header}>
@@ -75,6 +64,10 @@ export default function Home() {
           <a className={styles.singleSocialIcon} title='Write to my Gmail Account' href='mailto:gabrielyandavo144707@gmail.com'>
             <CgMail />
           </a>
+        </div>
+        <div className={styles.websiteInfoDiv}>
+          <span>This website is developed by Gatsby JS.</span>
+          <img src='/favicon.ico' alt='gatsby' />
         </div>
       </div>
     </Layout>
