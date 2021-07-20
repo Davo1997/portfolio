@@ -8,5 +8,9 @@
   My portfolio website developed by Gatsby JS.
 </h1>
 
-[Project website](https://david-g-portfolio.netlify.app)
+<p align="center">
+  <a href="https://david-g-portfolio.netlify.app">
+    Project website
+  </a>
+</p>
 <!-- AUTO-GENERATED-CONTENT:END -->
