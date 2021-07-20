@@ -1,56 +1,202 @@
-.portfolio {
-  text-align: center;
-}
-.portfolio > h2 {
-  font-size: 3em;
-  margin-top: 80px;
-}
-.portfolio > h3 {
-  font-size: 2em;
-  font-weight: 400;
+
+/*
+__________________________________________________________________
+                                                                  |
+                              DESKTOP                             |
+__________________________________________________________________|
+
+*/
+@media screen and (min-width: 1265px) {
+  .portfolio {
+    text-align: center;
+  }
+  .portfolio > h2 {
+    font-size: 3em;
+    margin-top: 80px;
+  }
+  .portfolio > h3 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+  
+  .projectsContainer {
+    height: auto;
+    margin: 20vh 10vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .singleProject {
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 15px 15px;
+    display: grid;
+  }
+  
+  .singleProject > a {
+    display: flex;
+  }
+  
+  .projectPhoto {
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    border-top: 2px solid white;
+  }
+  
+  .projectNoPhoto {
+    box-sizing: border-box;
+    border-top: 2px solid white;
+    height: 340px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .noPhotoText {
+    font-size: 20px;
+  }
+  
+  .projectTitle {
+    padding: 2vh;
+    background: radial-gradient(at left, rgb(202, 30, 174) 0%, rgb(23, 0, 66) 70%, rgb(228, 241, 34) 190%);
+    border-radius: 15px 15px 0 0;
+    height: 30px;
+  }
 }
 
-.projectsContainer {
-  height: auto;
-  margin: 20vh 10vw;
-  display: flex;
-  justify-content: space-around;
+
+/*
+__________________________________________________________________
+                                                                  |
+                              TABLET                              |
+__________________________________________________________________|
+
+*/
+@media screen and (min-width: 768px) and (max-width: 1264px) {
+  .portfolio {
+    text-align: center;
+  }
+  .portfolio > h2 {
+    font-size: 3em;
+    margin-top: 80px;
+  }
+  .portfolio > h3 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+  
+  .projectsContainer {
+    height: auto;
+    display: grid;
+    justify-items: center;
+  }
+  
+  .singleProject {
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 15px 15px;
+    display: grid;
+    margin: 30px 0 30px 0;
+  }
+  
+  .singleProject > a {
+    display: flex;
+  }
+  
+  .projectPhoto {
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    border-top: 2px solid white;
+  }
+  
+  .projectNoPhoto {
+    box-sizing: border-box;
+    border-top: 2px solid white;
+    height: 250px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .noPhotoText {
+    font-size: 15px;
+  }
+  
+  .projectTitle {
+    padding: 2vh;
+    background: radial-gradient(at left, rgb(202, 30, 174) 0%, rgb(23, 0, 66) 70%, rgb(228, 241, 34) 190%);
+    border-radius: 15px 15px 0 0;
+    height: 30px;
+  }
 }
 
-.singleProject {
-  width: 40%;
-  border: 2px solid white;
-  border-radius: 15px 15px;
-  display: grid;
-}
+/*
+__________________________________________________________________
+                                                                  |
+                              MOBILE                              |
+__________________________________________________________________|
 
-.singleProject > a {
-  display: flex;
-}
-
-.projectPhoto {
-  width: 100%;
-  border-radius: 0 0 15px 15px;
-  border-top: 2px solid white;
-}
-
-.projectNoPhoto {
-  box-sizing: border-box;
-  border-top: 2px solid white;
-  height: 340px;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.noPhotoText {
-  font-size: 20px;
-}
-
-.projectTitle {
-  padding: 2vh;
-  background: radial-gradient(at left, rgb(202, 30, 174) 0%, rgb(23, 0, 66) 70%, rgb(228, 241, 34) 190%);
-  border-radius: 15px 15px 0 0;
-  height: 30px;
+*/
+@media screen and (max-width: 767px) {
+  .portfolio {
+    text-align: center;
+  }
+  .portfolio > h2 {
+    font-size: 3em;
+    margin-top: 80px;
+  }
+  .portfolio > h3 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+  
+  .projectsContainer {
+    height: auto;
+    display: grid;
+    justify-items: center;
+  }
+  
+  .singleProject {
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 15px 15px;
+    display: grid;
+    margin: 30px 0 30px 0;
+  }
+  
+  .singleProject > a {
+    display: flex;
+    margin: 0;
+    padding: unset;
+  }
+  
+  .projectPhoto {
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    border-top: 2px solid white;
+  }
+  
+  .projectNoPhoto {
+    box-sizing: border-box;
+    border-top: 2px solid white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: fit-content;
+  }
+  
+  .noPhotoText {
+    font-size: 15px;
+  }
+  
+  .projectTitle {
+    padding: 2vh;
+    background: radial-gradient(at left, rgb(202, 30, 174) 0%, rgb(23, 0, 66) 70%, rgb(228, 241, 34) 190%);
+    border-radius: 15px 15px 0 0;
+    height: fit-content;
+    font-size: 15px;
+  }
 }
