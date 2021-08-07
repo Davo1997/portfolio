@@ -65,10 +65,6 @@ export default function Home() {
             <CgMail />
           </a>
         </div>
-        <div className={styles.websiteInfoDiv}>
-          <span>This website is developed by Gatsby JS.</span>
-          <img src='/favicon.ico' alt='gatsby' />
-        </div>
       </div>
     </Layout>
   )
