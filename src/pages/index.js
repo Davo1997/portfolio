@@ -52,10 +52,10 @@ export default function Home() {
       <div className={styles.socialMedia}>
         <h1 className={styles.socialMediaHeader}>My social network</h1>
         <div className={styles.socialMediaLinks}>
-          <a className={styles.singleSocialIcon} title='My Github Account' href='https://github.com/Davo1997' target='blank'>
+          <a className={styles.singleSocialIcon} title='My Github Account' href='https://github.com/davidgabrielyan' target='blank'>
             <AiFillGithub />
           </a>
-          <a className={styles.singleSocialIcon} title='My Linked Account' href='https://www.linkedin.com/in/david-gabrielyan-87428b168' target='blank'>
+          <a className={styles.singleSocialIcon} title='My LinkedIn Account' href='https://www.linkedin.com/in/david-gabrielyan-87428b168' target='blank'>
             <AiFillLinkedin />
           </a>
           <a className={styles.singleSocialIcon} title='My Upwork Account' href='https://www.upwork.com/freelancers/~018f9ccc2e00db32e0' target='blank'>
