@@ -92,7 +92,6 @@ export default function about() {
         <div className={styles.line}></div>
         <Row className={styles.experienceRow}>
           <Col md={3} className={styles.leftCol}>
-            Software Engineer at EPAM Systems
           </Col>
           <Col md={3} className={styles.middleCol}>
             <div className={styles.circle}>
@@ -100,6 +99,7 @@ export default function about() {
             </div>
           </Col>
           <Col md={3} className={styles.rightCol}>
+            Software Engineer at EPAM Systems
           </Col>
         </Row>
       </Container>
