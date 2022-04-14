@@ -133,9 +133,9 @@ export default function skillset() {
           <div className={styles.additionalSkill}>Graphs</div>
           <div className={styles.additionalSkill}>Data Structures</div>
           <div className={styles.additionalSkill}>Trees</div>
+          <div className={styles.additionalSkill}>Design Patterns</div>
         </div>
         <div className={styles.main}>
-          <div className={styles.additionalSkill}>Design Patterns</div>
           <div className={styles.additionalSkill}>Microservices Architecture</div>
           <div className={styles.additionalSkill}>Monolith Architecture</div>
           <div className={styles.additionalSkill}>RESTful APIs</div>
