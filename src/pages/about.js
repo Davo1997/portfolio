@@ -10,17 +10,16 @@ export default function about() {
       <div className={styles.wrapper}>
         <h1 className={styles.mainTitle}>About Me and my career</h1>
         <h3 className={styles.contentHs}>
-          Hi. I'm David, 23 years old software engineer experienced in backend and frontend development and devops.
+          Hi. I'm David, 25 years old software engineer experienced in backend and frontend development and devops.
           I started my career back in 2018 when I came back from army. As I was studying
           in Armenian State University of Economics (Yes, I was an economist/accountant),
           I started to learn programming myself and during 6 difficult and sleepless months
-          I've learnt a lot about programming, different languages (Python, C, Java),
+          I've learned a lot about programming, different languages (Python, C, JavaScript),
           different algorithms, graphs theory and trees. When I started my internship in
           my first company I started learning about Web, Network, backend and frontend
-          and became a web developer who's favorite language today is JavaScript/TypeScript.
-          Also during my experience I've learnt different devops technologies such as
-          Docker, Jenkins, AWS and Bash scripting. Today I'm only working with Linux OS,
-          because for me it's the best choice for developers (I'm doing all the staff by terminal ;) ).
+          and became a web developer who's favorite language today is JavaScript.
+          Also during my experience I've learned different DevOps technologies such as
+          Docker, Jenkins, AWS and Bash scripting.
           At the end I wanna say that I've never regretted being a programmer !
         </h3>
       </div>
