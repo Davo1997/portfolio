@@ -89,6 +89,19 @@ export default function about() {
           <Col md={3} className={styles.rightCol}>
           </Col>
         </Row>
+        <div className={styles.line}></div>
+        <Row className={styles.experienceRow}>
+          <Col md={3} className={styles.leftCol}>
+            Software Engineer at EPAM Systems
+          </Col>
+          <Col md={3} className={styles.middleCol}>
+            <div className={styles.circle}>
+              <span className={styles.experience}>1 Year</span>
+            </div>
+          </Col>
+          <Col md={3} className={styles.rightCol}>
+          </Col>
+        </Row>
       </Container>
     </Layout>
   )
