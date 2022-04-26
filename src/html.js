@@ -8,7 +8,7 @@ export default function HTML(props) {
         <title>Portfolio | David Gabrielyan</title>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta name="propeller" content="bb746a11fd04f5f0578fcc5c6cfc3a4a">
+        <meta name="propeller" content="bb746a11fd04f5f0578fcc5c6cfc3a4a" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
