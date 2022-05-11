@@ -20,7 +20,7 @@ export default function Home() {
             My Portfolio Projects
           </Link>
         </div>
-        <img src='/photo.png' alt='my' className={styles.myPhoto} />
+        <img layout='fixed' src='/photo.png' alt='my' className={styles.myPhoto} />
       </section>
       <Row className={styles.servicesSection}>
         <Col md={2} className={styles.serviceOne + ' ' + styles.allServices}>
