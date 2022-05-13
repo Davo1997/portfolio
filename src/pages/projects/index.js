@@ -28,7 +28,7 @@ export default function index() {
             <h3 className={styles.projectTitle}>Private project. Full done</h3>
             <div className={styles.projectNoPhoto}>
               <span className={styles.noPhotoText}>
-                Private project abount data synchronization from multiple sources (Salesforce, Hubspot, etc.).
+                Private project about data synchronization from multiple sources (Salesforce, Hubspot, etc.).
                 Developed by Keystone JS, MongoDB, GraphQL, Bootstrap, etc.
               </span>
               <span className={styles.noPhotoText}>

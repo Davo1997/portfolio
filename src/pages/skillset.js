@@ -15,11 +15,11 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/js.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>JavaScript, experience - 3 years</span>
+            <span className={styles.singleSkillContent}>JavaScript, experience - 4 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/nodejs.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Node JS, experience - 3 years</span>
+            <span className={styles.singleSkillContent}>Node JS, experience - 4 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/python.png' alt='my' className={styles.singleSkillImg} />
@@ -31,11 +31,11 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/express.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Express JS, experience - 3 years</span>
+            <span className={styles.singleSkillContent}>Express JS, experience - 4 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/docker.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Docker, experience - 2.5 years</span>
+            <span className={styles.singleSkillContent}>Docker, experience - 3.5 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/jenkins.png' alt='my' className={styles.singleSkillImg} />
@@ -43,19 +43,19 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/aws.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Amazon Web Services, experience - 2 years</span>
+            <span className={styles.singleSkillContent}>Amazon Web Services, experience - 3 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/webpack.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Webpack, experience - 3 years</span>
+            <span className={styles.singleSkillContent}>Webpack, experience - 3.5 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/auth0.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Auth0, experience - 1 year</span>
+            <span className={styles.singleSkillContent}>Auth0, experience - 2 year</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/linux.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Linux, experience - 3 years</span>
+            <span className={styles.singleSkillContent}>Linux, experience - 3.5 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/twilio.png' alt='my' className={styles.singleSkillImg} />
@@ -93,7 +93,7 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/jest.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Jest unit testing library, experience - 2 years</span>
+            <span className={styles.singleSkillContent}>Jest unit testing library, experience - 3.5 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/mocha.png' alt='my' className={styles.singleSkillImg} />
@@ -105,11 +105,11 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/mysql.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>MySQL, experience - 1 year</span>
+            <span className={styles.singleSkillContent}>MySQL, experience - 1.5 year</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/babel.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Babel transpiler, experience - 3 years</span>
+            <span className={styles.singleSkillContent}>Babel transpiler, experience - 3.5 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/graphql.png' alt='my' className={styles.singleSkillImg} />
