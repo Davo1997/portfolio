@@ -11,15 +11,15 @@ export default function skillset() {
         <div className={styles.main}>
           <div className={styles.singleSkill}>
             <img src='/typescript.svg' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>TypeScript, experience - 1.5 years</span>
+            <span className={styles.singleSkillContent}>TypeScript, experience - 4 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/js.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>JavaScript, experience - 4 years</span>
+            <span className={styles.singleSkillContent}>JavaScript, experience - 5 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/nodejs.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Node JS, experience - 4 years</span>
+            <span className={styles.singleSkillContent}>Node JS, experience - 5 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/python.png' alt='my' className={styles.singleSkillImg} />
@@ -39,11 +39,11 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/jenkins.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Jenkins, experience - 1.5 years</span>
+            <span className={styles.singleSkillContent}>Jenkins, experience - 2 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/aws.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Amazon Web Services, experience - 3 years</span>
+            <span className={styles.singleSkillContent}>Amazon Web Services, experience - 5 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/webpack.png' alt='my' className={styles.singleSkillImg} />
@@ -55,7 +55,7 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/linux.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Linux, experience - 3.5 years</span>
+            <span className={styles.singleSkillContent}>Linux, experience - 5 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/twilio.png' alt='my' className={styles.singleSkillImg} />
@@ -63,7 +63,7 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/stripe.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Stripe payment system, experience - 0.5 year</span>
+            <span className={styles.singleSkillContent}>Stripe payment, experience - 1 year</span>
           </div>
         </div>
         <div className={styles.main}>
@@ -85,7 +85,7 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/redux.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Redux JS, experience - 2.5 years</span>
+            <span className={styles.singleSkillContent}>Redux JS, experience - 2 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/mobx.png' alt='my' className={styles.singleSkillImg} />
@@ -93,7 +93,7 @@ export default function skillset() {
           </div>
           <div className={styles.singleSkill}>
             <img src='/jest.png' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>Jest unit testing library, experience - 3.5 years</span>
+            <span className={styles.singleSkillContent}>Jest unit testing library, experience - 5 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/mocha.png' alt='my' className={styles.singleSkillImg} />

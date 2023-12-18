@@ -11,7 +11,7 @@ export default function Layout({ children }) {
         { children }
       </div>
       <footer className='footer'>
-        <p>© Copyright 2022. David Gabrielyan</p>
+        <p>© Copyright 2024. David Gabrielyan</p>
       </footer>
     </div>
   )
