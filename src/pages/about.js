@@ -18,7 +18,7 @@ export default function about() {
           When I started my internship in my first company I started learning about Web, Network,
           backend and frontend, and became a web developer, who's favorite language today is TypeScript.
           Also during my experience I've learned different DevOps technologies such as Docker, Jenkins,
-          AWS and Bash scripting. At the end I wanna say that I've never regretted being a programmer!
+          AWS and Bash scripting.
 
           Today I'm a backend-oriented senior software engineer, who's job is to find cost-effective,
           optimal and performant solutions in the cloud. My favorite cloud provider is AWS and I have
