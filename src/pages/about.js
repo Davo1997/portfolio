@@ -35,11 +35,11 @@ export default function about() {
           </Col>
           <Col md={3} className={styles.middleCol}>
             <div className={styles.circle}>
-              <span className={styles.experience}>2 years</span>
+              <span className={styles.experience}>3 Years</span>
             </div>
           </Col>
           <Col md={3} className={styles.rightCol}>
-            Software Engineer at Instigate Mobile CJSC
+            Senior Software Engineer at EPAM Systems
           </Col>
         </Row>
         <div className={styles.line}></div>
@@ -61,11 +61,11 @@ export default function about() {
           </Col>
           <Col md={3} className={styles.middleCol}>
             <div className={styles.circle}>
-              <span className={styles.experience}>2 Year</span>
+              <span className={styles.experience}>2 years</span>
             </div>
           </Col>
           <Col md={3} className={styles.rightCol}>
-            Senior Software Engineer at EPAM Systems
+            Software Engineer at Instigate Mobile CJSC
           </Col>
         </Row>
       </Container>
