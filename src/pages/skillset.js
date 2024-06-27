@@ -11,7 +11,7 @@ export default function skillset() {
         <div className={styles.main}>
           <div className={styles.singleSkill}>
             <img src='/typescript.svg' alt='my' className={styles.singleSkillImg} />
-            <span className={styles.singleSkillContent}>TypeScript, experience - 5 years</span>
+            <span className={styles.singleSkillContent}>TypeScript, experience - 6 years</span>
           </div>
           <div className={styles.singleSkill}>
             <img src='/js.png' alt='my' className={styles.singleSkillImg} />
